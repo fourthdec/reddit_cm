@@ -1,0 +1,14 @@
+[project]
+name = "reddit-cm"
+version = "0.1.0"
+description = "Reddit Community Manager - Export your joined communities"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "praw>=7.7.1",
+    "pyyaml>=6.0.1",
+    "click>=8.1.7"
+]
+
+[project.scripts]
+reddit-cm = "main:cli"
